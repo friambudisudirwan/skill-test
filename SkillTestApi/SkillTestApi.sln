@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillTestApi", "SkillTestApi.csproj", "{CA6C332E-8E95-4124-A4C2-FC0D3EA5B770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6C332E-8E95-4124-A4C2-FC0D3EA5B770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6C332E-8E95-4124-A4C2-FC0D3EA5B770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6C332E-8E95-4124-A4C2-FC0D3EA5B770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6C332E-8E95-4124-A4C2-FC0D3EA5B770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67D591C5-3AE8-4145-96B2-609E6EB3DFC6}
+	EndGlobalSection
+EndGlobal
