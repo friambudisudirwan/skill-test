@@ -80,9 +80,9 @@ namespace SkillTestApi.Controllers
         }
 
         [HttpPost]
-        [Route("API/CalculateDiscount")]
+        [Route("API/TransactionDiscount")]
         [ProducesResponseType<string>(StatusCodes.Status201Created)]
-        public Transaksi CalculateDiscount([FromBody] Transaksi param)
+        public Transaksi TransactionDiscount([FromBody] TransaksiParam param)
         {
             var listMember = new List<KeyValuePair<int, string>>()
             {
@@ -105,7 +105,7 @@ namespace SkillTestApi.Controllers
             var lastSequenceTransaksi = _context.Transaksi.OrderByDescending(x => x.TransaksiID).FirstOrDefault();
             if (lastSequenceTransaksi is not null) sequenceTransaksi = Convert.ToInt32(lastSequenceTransaksi?.TransaksiID?.Split("_")[1]);
 
-            var transaksiID = (sequenceTransaksi + 1).ToString().PadLeft(4, '0');
+            var transaksiID = (sequenceTransaksi + 1).ToString().PadLeft(5, '0');
 
             var Transaksi = new Transaksi
             {

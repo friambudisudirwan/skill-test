@@ -14,45 +14,45 @@ public class Member
         {
             if (TipeMember == 1)
             {
-                discount = totalBelanja * (50 / 100) + 35;
+                discount = totalBelanja * (50d / 100d) + 35;
             }
             else if (TipeMember == 2)
             {
-                discount = totalBelanja * (50 / 100) + 50;
+                discount = totalBelanja * (50d / 100d) + 50;
             }
             else if (TipeMember == 3)
             {
-                discount = totalBelanja * (50 / 100) + 68;
+                discount = totalBelanja * (50d / 100d) + 68;
             }
         }
         else if (pointReward >= 301 && pointReward <= 500)
         {
             if (TipeMember == 1)
             {
-                discount = totalBelanja * (50 / 100) + 35;
+                discount = totalBelanja * (50d / 100d) + 35;
             }
             else if (TipeMember == 2)
             {
-                discount = totalBelanja * (25 / 100) + 34;
+                discount = totalBelanja * (25d / 100d) + 34;
             }
             else if (TipeMember == 3)
             {
-                discount = totalBelanja * (25 / 100) + 52;
+                discount = totalBelanja * (25d / 100d) + 52;
             }
         }
         else if (pointReward > 500)
         {
             if (TipeMember == 1)
             {
-                discount = totalBelanja * (50 / 100) + 35;
+                discount = totalBelanja * (50d / 100d) + 35;
             }
             else if (TipeMember == 2)
             {
-                discount = totalBelanja * (25 / 100) + 25;
+                discount = totalBelanja * (25d / 100d) + 25;
             }
             else if (TipeMember == 3)
             {
-                discount = totalBelanja * (10 / 100) + 39;
+                discount = totalBelanja * (10d / 100d) + 39;
             }
         }
 
